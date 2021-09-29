@@ -43,8 +43,9 @@ This following files have not being included into the repository because of thei
 
 ### The main Function
 
- `` def main():
-    while True:
+ ```  
+    def main():
+        while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
@@ -57,15 +58,16 @@ This following files have not being included into the repository because of thei
         if restart.lower() != 'yes':
             break
 
-
 if __name__ == "__main__":
-    main() ``
+       main() 
+       
+```
 
 ### Credits
 
 This project was inspired by repository from the [Udacity](https://github.com/udacity/course-collaboration-travel-plans) course. 
 
-
+I would also like to give credit to the [Github documentation](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#paragraphs) on how to properly format the README.md file. 
 
 
 
